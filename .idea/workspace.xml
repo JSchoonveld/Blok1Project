@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30974f23-e450-4591-8530-d222ee8d0e83" name="Default Changelist" comment="" />
+    <list default="true" id="30974f23-e450-4591-8530-d222ee8d0e83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsVoorbeeld.html" beforeDir="false" afterPath="$PROJECT_DIR$/jsVoorbeeld.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ntVakken.html" beforeDir="false" afterPath="$PROJECT_DIR$/ntVakken.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpPage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rooster.html" beforeDir="false" afterPath="$PROJECT_DIR$/rooster.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school.html" beforeDir="false" afterPath="$PROJECT_DIR$/school.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/function.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/function.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verschillen.html" beforeDir="false" afterPath="$PROJECT_DIR$/verschillen.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,8 +35,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP XAMPP" />
   <component name="ProjectId" id="1iFKNNXhWP41pKdVQZx5bNxOITj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601497859223</updated>
       <workItem from="1601497860244" duration="20291000" />
-      <workItem from="1601626265926" duration="3184000" />
+      <workItem from="1601626265926" duration="13977000" />
     </task>
     <servers />
   </component>
@@ -84,10 +104,14 @@
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>
     <state x="2868" y="149" key="FileChooserDialogImpl/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1601632592680" />
-    <state x="3444" y="417" key="Github.ShareDialog" timestamp="1601632604414">
+    <state x="3444" y="417" key="Github.ShareDialog" timestamp="1601632664242">
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>
-    <state x="3444" y="417" key="Github.ShareDialog/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1601632604414" />
+    <state x="3444" y="417" key="Github.ShareDialog/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1601632664242" />
+    <state x="3401" y="137" key="Github.UntrackedFilesDialog" timestamp="1601632671496">
+      <screen x="1920" y="-351" width="2560" height="1400" />
+    </state>
+    <state x="3401" y="137" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1601632671496" />
     <state x="3158" y="-44" key="SettingsEditor" timestamp="1601540709218">
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>

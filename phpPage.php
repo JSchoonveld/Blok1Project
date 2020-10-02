@@ -24,10 +24,10 @@
         </ul>
     </nav>
 </header>
-
-<div class="section-one"></div>
-<div class="section-two"></div>
-
+<main>
+    <div class="section-one"></div>
+    <div class="section-two"></div>
+</main>
 <footer>
     <ul class="footLogos">
 

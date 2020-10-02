@@ -5,11 +5,10 @@ $headerHeight: 10vh;
 
 header {
   @include section(fit-content, $menuColor, 100%);
-  position: fixed;
-  display: flex;
+  @include center(row );
   .logo{
     a{
-      color: #EBED4E;
+      color: white;
       text-decoration: none;
     }
     padding: 20px;
@@ -87,6 +86,12 @@ nav {
 }
 @media only screen and (min-width: 1000px) {
   .hamburger {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 850px) and (min-width: 400px){
+  header {
     display: none;
   }
 }

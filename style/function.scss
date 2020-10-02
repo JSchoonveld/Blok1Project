@@ -9,3 +9,9 @@ $fontFamily: Helvetica;
   background-color: $color;
   width: $width;
 }
+
+@mixin center($direction){
+  display: flex;
+  flex-direction: $direction;
+  align-items:center;
+}
