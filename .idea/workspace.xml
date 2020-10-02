@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30974f23-e450-4591-8530-d222ee8d0e83" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP XAMPP" />
+  <component name="ProjectId" id="1iFKNNXhWP41pKdVQZx5bNxOITj" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/style" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\learning\Sass" />
+      <recent name="C:\xampp\htdocs\learning\Sass\style" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30974f23-e450-4591-8530-d222ee8d0e83" name="Default Changelist" comment="" />
+      <created>1601497859223</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601497859223</updated>
+      <workItem from="1601497860244" duration="20291000" />
+      <workItem from="1601626265926" duration="3184000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3777" y="168" key="#File_Watchers" timestamp="1601499427427">
+      <screen x="1920" y="-351" width="2560" height="1400" />
+    </state>
+    <state x="3777" y="168" key="#File_Watchers/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1601499427427" />
+    <state x="3286" y="66" key="#PHP" timestamp="1601628127529">
+      <screen x="1920" y="-351" width="2560" height="1400" />
+    </state>
+    <state x="3286" y="66" key="#PHP/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1601628127529" />
+    <state x="2868" y="99" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1601499180485">
+      <screen x="1920" y="-351" width="2560" height="1400" />
+    </state>
+    <state x="2868" y="99" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1601499180485" />
+    <state x="3107" y="100" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601499808134">
+      <screen x="1920" y="-351" width="2560" height="1400" />
+    </state>
+    <state x="3107" y="100" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1601499808134" />
+    <state x="2756" y="50" width="665" height="688" key="EditFileWatcherDialog" timestamp="1601499335161">
+      <screen x="1920" y="-351" width="2560" height="1400" />
+    </state>
+    <state x="627" y="298" key="EditFileWatcherDialog/0.0.1920.1040/1920.-351.2560.1400@0.0.1920.1040" timestamp="1601497935794" />
+    <state x="2756" y="50" width="665" height="688" key="EditFileWatcherDialog/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1601499335161" />
+    <state x="2868" y="149" key="FileChooserDialogImpl" timestamp="1601632592680">
+      <screen x="1920" y="-351" width="2560" height="1400" />
+    </state>
+    <state x="2868" y="149" key="FileChooserDialogImpl/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1601632592680" />
+    <state x="3444" y="417" key="Github.ShareDialog" timestamp="1601632604414">
+      <screen x="1920" y="-351" width="2560" height="1400" />
+    </state>
+    <state x="3444" y="417" key="Github.ShareDialog/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1601632604414" />
+    <state x="3158" y="-44" key="SettingsEditor" timestamp="1601540709218">
+      <screen x="1920" y="-351" width="2560" height="1400" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.-351.2560.1400@0.0.1920.1040" timestamp="1601497937897" />
+    <state x="3158" y="-44" key="SettingsEditor/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1601540709218" />
+    <state x="3040" y="62" width="672" height="678" key="search.everywhere.popup" timestamp="1601555659755">
+      <screen x="1920" y="-351" width="2560" height="1400" />
+    </state>
+    <state x="3040" y="62" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1601555659755" />
+    <state x="3379" y="187" key="svn.repositoryBrowser" timestamp="1601632594041">
+      <screen x="1920" y="-351" width="2560" height="1400" />
+    </state>
+    <state x="3379" y="187" key="svn.repositoryBrowser/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1601632594041" />
+  </component>
+</project>

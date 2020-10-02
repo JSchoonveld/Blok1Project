@@ -1,0 +1,62 @@
+@import "header";
+@import "footer";
+@import "function";
+
+$sectionPadding: 20px;
+$h1Color: #6325A1;
+$pTextColor: grey;
+
+body {
+  margin: 0;
+  font-family: Arial, serif;
+  @include section(100vh, white, 100%);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 10% fit-content(100%) 15%;
+  grid-template-areas:
+  "header header"
+  "section-one section-two"
+  "footer footer";
+
+  h1{
+    padding: 10px;
+    color: $h1Color;
+  }
+  p {
+    padding: 10px;
+    color: $pTextColor
+  }
+
+  .section-one {
+    grid-area: section-one;
+    padding: $sectionPadding;
+    overflow-scrolling: auto;
+    min-height: 100vh;
+
+  }
+  .section-two {
+    grid-area: section-two;
+    padding: $sectionPadding;
+    min-height: 100vh;
+  }
+  .table-section{
+    th, td {
+      box-shadow: 1px 1px 1px;
+
+    }
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  body {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% fit-content(100%) fit-content(100%) 15% ;
+    grid-template-areas:
+    "header"
+  "section-one"
+  "section-two"
+  "footer";
+  }
+}

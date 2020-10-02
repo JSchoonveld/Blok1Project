@@ -1,0 +1,93 @@
+@import "function";
+
+$headerColor: #9FFF59;
+$headerHeight: 10vh;
+
+header {
+  @include section(fit-content, $menuColor, 100%);
+  position: fixed;
+  display: flex;
+  .logo{
+    a{
+      color: #EBED4E;
+      text-decoration: none;
+    }
+    padding: 20px;
+  }
+}
+nav {
+  ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding-left: 200px;
+    padding-right: 200px;
+    line-height: 10vh;
+    li{
+      list-style: none;
+      padding-left: 20px;
+      padding-right: 20px;
+      a{
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+  margin: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  header {
+    grid-area: header;
+
+    .hamburger {
+      height: 60px;
+      width: 60px;
+      position: fixed;
+      background-color: transparent;
+      border-style: none;
+      font-size: 40px;
+      color: white;
+      right: 40px;
+      top: 20px;
+      z-index: 1;
+      outline: none;
+
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      right: -150px;
+      height: 100vh;
+      width: 500px;
+      background-color: rebeccapurple;
+      transform: translateX(100%);
+      ul {
+        position: absolute;
+        right: 20px;
+        li {
+          a {
+            color: white;
+            font-size: 25px;
+          }
+        }
+      }
+    }
+    .active1 {
+      transform: translate(-80px);
+    }
+  }
+
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .hamburger {
+    display: none;
+  }
+}
+

@@ -1,0 +1,11 @@
+$menuColor: rebeccapurple;
+$buttonColor: red;
+$textColor: white;
+$fontsize: 17px;
+$fontFamily: Helvetica;
+
+@mixin section($height, $color, $width){
+  height: $height;
+  background-color: $color;
+  width: $width;
+}

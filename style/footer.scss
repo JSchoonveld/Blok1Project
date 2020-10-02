@@ -1,0 +1,29 @@
+@import "function";
+
+footer {
+  @include section(15vh, $menuColor, 100%);
+  grid-area: footer;
+
+  ul {
+    display: flex;
+    margin: 0;
+    li {
+      padding: 20px 10px;
+      list-style: none;
+    }
+
+  }
+  .footLogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 50px;
+    vertical-align: center;
+    margin-top: 3%;
+  }
+
+  .footPic {
+    height: 50px;
+    width: 50px;
+  }
+}
