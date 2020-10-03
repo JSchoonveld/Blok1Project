@@ -21,7 +21,7 @@ var logo = document.getElementsByClassName('logoL')[0];
 var header = document.getElementsByClassName('header')[0];
 console.log(logo);
 header.addEventListener('resize', function (){
-    if (window.innerWidth < 850 && window.innerWidth > 400){
+    if (window.innerWidth < 815 && window.innerWidth > 400){
         logo.style.visibility = 'hidden';
         header.style.display = 'none';
 

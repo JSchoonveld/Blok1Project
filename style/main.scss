@@ -17,15 +17,19 @@ body {
   main{
     display: flex;
     .section-one {
-      width: 50vw;
+      width: 45vw;
       padding: $sectionPadding;
       overflow-scrolling: auto;
       min-height: 75vh;
 
     }
+    .section-one {
+      min-height: 100vh;
+      height: fit-content;
+    }
     .section-two {
-      height: 50vh;
-      width: 50vw;
+      height: fit-content;
+      width: 45vw;
       padding: $sectionPadding;
       @include center(column);
       min-height: 75vh;
@@ -37,6 +41,12 @@ body {
     padding: 10px;
     color: $h1Color;
   }
+  h2 {
+    color: $h1Color;
+  }
+h3 {
+  color: $h1Color;
+}
   p {
     padding: 5px;
     color: $pTextColor
@@ -53,11 +63,97 @@ body {
 @media only screen and (min-width: 1200px) {
   body{
     main {
+      .thinPic {
+        display: none;
+      }
+      @include center(column);
+      p {
+        padding: 15px;
+        margin: 0;
+        width: 50vw;
+      }
       .section-one {
+        height: fit-content;
+        display: flex;
+        width: 90vw;
         img {
-          height: 20vh;
+          width: 30vw;
+          margin: 20px;
 
         }
+      }
+      .section-one-a {
+        width: 50vw;
+        @include center(column);
+      }
+      .section-one-b {
+        width: 50vw;
+        @include center(column);
+        img {
+          width: 30vw;
+          margin: 20px;
+        }
+      }
+      .section-two {
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        width: 90vw;
+
+        img {
+          width: 30vw;
+          margin: 20px;
+        }
+
+      }
+      .section-two-a {
+        width: 50vw;
+        height: 100%;
+        @include center(column);
+      }
+      .section-two-b {
+        width: 50vw;
+        height: 100%;
+        @include center(column);
+        img {
+          width: 30vw;
+          margin: 20px;
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (min-width: 820px) and (max-width: 1200px) {
+  body{
+    main {
+      .widePic {
+        display: none;
+      }
+      @include center(column);
+      .section-one {
+        height: fit-content;
+        width: 80vw;
+        .section-one-a {
+          @include center(column);
+        }
+        img {
+          height: 40vh;
+        }
+
+      }
+
+      .section-two {
+        height: fit-content;
+        width: 80vw;
+        .section-two-a {
+          @include center(column);
+        }
+        img {
+          height: 40vh;
+        }
+
       }
     }
   }
@@ -65,12 +161,34 @@ body {
 
 @media only screen and (min-width: 600px) and (max-width: 820px) {
   body{
+    overflow-scrolling: auto;
     main {
+      .widePic {
+        display: none;
+      }
+      @include center(column);
       .section-one {
-        img {
-          height: 80vh;
-
+        height: fit-content;
+        width: 80vw;
+        .section-one-a {
+          @include center(column);
         }
+        img {
+          width: 65vw;
+        }
+
+      }
+
+      .section-two {
+        height: fit-content;
+        width: 65vw;
+        .section-two-a {
+          @include center(column);
+        }
+        img {
+          width: 80vw;
+        }
+
       }
     }
   }
@@ -82,13 +200,16 @@ body {
     flex-direction: column;
 
     main{
-      flex-direction: column;
-      align-items: center;
+      @include center(column);
 
+
+      .widePic {
+        display: none;
+      }
       .section-one {
         min-width: $phonePWidth;
-        min-height: 100vh;
         height: fit-content;
+        @include center(column);
         img {
           width: 90vw;
 
@@ -102,10 +223,13 @@ body {
       }
       .section-two {
         min-width: $phonePWidth;
-        min-height: 100vh;
         height: fit-content;
+        @include center(column);
         img {
           width: 90vw;
+        }
+        h1 {
+
         }
       }
     }

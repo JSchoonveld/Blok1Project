@@ -25,8 +25,22 @@
     </nav>
 </header>
 <main>
-    <div class="section-one"></div>
-    <div class="section-two"></div>
+    <div class="section-one">
+        <div class="section-one-a">
+
+        </div>
+        <div class="section-one-b">
+
+        </div>
+    </div>
+    <div class="section-two">
+        <div class="section-two-a">
+
+        </div>
+        <div class="section-two-b">
+
+        </div>
+    </div>
 </main>
 <footer>
     <ul class="footLogos">

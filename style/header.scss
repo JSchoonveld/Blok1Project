@@ -20,7 +20,6 @@ nav {
     justify-content: center;
     margin-top: 0;
     padding-left: 200px;
-    padding-right: 200px;
     line-height: 10vh;
     li{
       list-style: none;
@@ -35,9 +34,9 @@ nav {
   margin: auto;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
   header {
-    grid-area: header;
+    width: 101vw;
 
     .hamburger {
       height: 60px;
@@ -46,7 +45,7 @@ nav {
       background-color: transparent;
       border-style: none;
       font-size: 40px;
-      color: white;
+      color: red;
       right: 40px;
       top: 20px;
       z-index: 1;
@@ -56,15 +55,17 @@ nav {
 
     nav {
       position: fixed;
-      top: 0;
-      right: -150px;
+      top: -40px;
+      right: 0;
       height: 100vh;
       width: 500px;
       background-color: rebeccapurple;
       transform: translateX(100%);
       ul {
         position: absolute;
+        top: 50px;
         right: 20px;
+        margin-right: 200px;
         li {
           a {
             color: white;
@@ -74,7 +75,7 @@ nav {
       }
     }
     .active1 {
-      transform: translate(-80px);
+      transform: translate(0);
     }
   }
 
@@ -84,17 +85,17 @@ nav {
 
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 900px) {
   .hamburger {
     display: none;
   }
-}
-
-@media only screen and (max-width: 850px) and (min-width: 500px){
   header {
-    display: none;
+    width: 103vw;
+    overflow: no-display;
+
   }
 }
+
 @media only screen and (max-width: 400px) {
 
 }

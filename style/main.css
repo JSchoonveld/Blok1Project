@@ -22,7 +22,6 @@ nav ul {
   justify-content: center;
   margin-top: 0;
   padding-left: 200px;
-  padding-right: 200px;
   line-height: 10vh;
 }
 nav ul li {
@@ -35,9 +34,9 @@ nav ul li a {
   color: white;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
   header {
-    grid-area: header;
+    width: 101vw;
   }
   header .hamburger {
     height: 60px;
@@ -46,7 +45,7 @@ nav ul li a {
     background-color: transparent;
     border-style: none;
     font-size: 40px;
-    color: white;
+    color: red;
     right: 40px;
     top: 20px;
     z-index: 1;
@@ -54,8 +53,8 @@ nav ul li a {
   }
   header nav {
     position: fixed;
-    top: 0;
-    right: -150px;
+    top: -40px;
+    right: 0;
     height: 100vh;
     width: 500px;
     background-color: rebeccapurple;
@@ -63,14 +62,16 @@ nav ul li a {
   }
   header nav ul {
     position: absolute;
+    top: 50px;
     right: 20px;
+    margin-right: 200px;
   }
   header nav ul li a {
     color: white;
     font-size: 25px;
   }
   header .active1 {
-    transform: translate(-80px);
+    transform: translate(0);
   }
 
   header nav ul {
@@ -78,28 +79,29 @@ nav ul li a {
     flex-direction: column;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 900px) {
   .hamburger {
     display: none;
   }
-}
-@media only screen and (max-width: 850px) and (min-width: 500px) {
+
   header {
-    display: none;
+    width: 103vw;
+    overflow: no-display;
   }
 }
 footer {
-  height: 15vh;
+  height: 35vh;
   background-color: rebeccapurple;
   width: 100%;
-  grid-area: footer;
+  width: 100vw;
 }
 footer ul {
   display: flex;
   margin: 0;
+  padding-bottom: 10px;
 }
 footer ul li {
-  padding: 20px 10px;
+  padding: 0 10px;
   list-style: none;
 }
 footer .footLogos {
@@ -115,6 +117,18 @@ footer .footPic {
   width: 50px;
 }
 
+@media only screen and (max-width: 400px) {
+  footer ul {
+    display: flex;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  footer ul li {
+    padding: 0 10px;
+    list-style: none;
+  }
+}
 body {
   margin: 0;
   font-family: Arial, serif;
@@ -128,14 +142,18 @@ body main {
   display: flex;
 }
 body main .section-one {
-  width: 50vw;
+  width: 45vw;
   padding: 20px;
   overflow-scrolling: auto;
   min-height: 75vh;
 }
+body main .section-one {
+  min-height: 100vh;
+  height: fit-content;
+}
 body main .section-two {
-  height: 50vh;
-  width: 50vw;
+  height: fit-content;
+  width: 45vw;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -145,6 +163,14 @@ body main .section-two {
 
 h1 {
   padding: 10px;
+  color: #6325A1;
+}
+
+h2 {
+  color: #6325A1;
+}
+
+h3 {
   color: #6325A1;
 }
 
@@ -158,13 +184,142 @@ p {
 }
 
 @media only screen and (min-width: 1200px) {
+  body main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .thinPic {
+    display: none;
+  }
+  body main p {
+    padding: 15px;
+    margin: 0;
+    width: 50vw;
+  }
+  body main .section-one {
+    height: fit-content;
+    display: flex;
+    width: 90vw;
+  }
   body main .section-one img {
-    height: 20vh;
+    width: 30vw;
+    margin: 20px;
+  }
+  body main .section-one-a {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .section-one-b {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .section-one-b img {
+    width: 30vw;
+    margin: 20px;
+  }
+  body main .section-two {
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+  }
+  body main .section-two img {
+    width: 30vw;
+    margin: 20px;
+  }
+  body main .section-two-a {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .section-two-b {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .section-two-b img {
+    width: 30vw;
+    margin: 20px;
+  }
+}
+@media only screen and (min-width: 820px) and (max-width: 1200px) {
+  body main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .widePic {
+    display: none;
+  }
+  body main .section-one {
+    height: fit-content;
+    width: 80vw;
+  }
+  body main .section-one .section-one-a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .section-one img {
+    height: 40vh;
+  }
+  body main .section-two {
+    height: fit-content;
+    width: 80vw;
+  }
+  body main .section-two .section-two-a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .section-two img {
+    height: 40vh;
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 820px) {
+  body {
+    overflow-scrolling: auto;
+  }
+  body main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .widePic {
+    display: none;
+  }
+  body main .section-one {
+    height: fit-content;
+    width: 80vw;
+  }
+  body main .section-one .section-one-a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   body main .section-one img {
-    height: 80vh;
+    width: 65vw;
+  }
+  body main .section-two {
+    height: fit-content;
+    width: 65vw;
+  }
+  body main .section-two .section-two-a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .section-two img {
+    width: 80vw;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -173,13 +328,19 @@ p {
     flex-direction: column;
   }
   body main {
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
+  body main .widePic {
+    display: none;
+  }
   body main .section-one {
     min-width: 90vw;
-    min-height: 100vh;
     height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   body main .section-one img {
     width: 90vw;
@@ -192,8 +353,10 @@ p {
   }
   body main .section-two {
     min-width: 90vw;
-    min-height: 100vh;
     height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   body main .section-two img {
     width: 90vw;
