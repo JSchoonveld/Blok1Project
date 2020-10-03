@@ -179,6 +179,7 @@ p {
   body main .section-one {
     min-width: 90vw;
     min-height: 100vh;
+    height: fit-content;
   }
   body main .section-one img {
     width: 90vw;
@@ -192,6 +193,7 @@ p {
   body main .section-two {
     min-width: 90vw;
     min-height: 100vh;
+    height: fit-content;
   }
   body main .section-two img {
     width: 90vw;

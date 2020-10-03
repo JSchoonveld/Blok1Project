@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30974f23-e450-4591-8530-d222ee8d0e83" name="Default Changelist" comment="">
+    <list default="true" id="30974f23-e450-4591-8530-d222ee8d0e83" name="Default Changelist" comment="mobile versie 1">
+      <change afterPath="$PROJECT_DIR$/img/jesse1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/mark1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/nl1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/noorderp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/programming.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jsVoorbeeld.html" beforeDir="false" afterPath="$PROJECT_DIR$/jsVoorbeeld.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ntVakken.html" beforeDir="false" afterPath="$PROJECT_DIR$/ntVakken.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ntVakken.html" beforeDir="false" afterPath="$PROJECT_DIR$/avo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phpPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpPage.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rooster.html" beforeDir="false" afterPath="$PROJECT_DIR$/rooster.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/school.html" beforeDir="false" afterPath="$PROJECT_DIR$/school.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/function.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/function.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css.map" afterDir="false" />
@@ -71,12 +74,24 @@
       <option name="presentableId" value="Default" />
       <updated>1601497859223</updated>
       <workItem from="1601497860244" duration="20291000" />
-      <workItem from="1601626265926" duration="13977000" />
+      <workItem from="1601626265926" duration="16089000" />
     </task>
+    <task id="LOCAL-00001" summary="mobile versie 1">
+      <created>1601661227957</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601661227957</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mobile versie 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile versie 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3777" y="168" key="#File_Watchers" timestamp="1601499427427">
@@ -117,6 +132,10 @@
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.-351.2560.1400@0.0.1920.1040" timestamp="1601497937897" />
     <state x="3158" y="-44" key="SettingsEditor/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1601540709218" />
+    <state x="2810" y="43" key="Vcs.Push.Dialog.v2" timestamp="1601661572714">
+      <screen x="1920" y="-351" width="2560" height="1400" />
+    </state>
+    <state x="2810" y="43" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1601661572714" />
     <state x="3040" y="62" width="672" height="678" key="search.everywhere.popup" timestamp="1601555659755">
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>

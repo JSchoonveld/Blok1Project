@@ -88,6 +88,7 @@ body {
       .section-one {
         min-width: $phonePWidth;
         min-height: 100vh;
+        height: fit-content;
         img {
           width: 90vw;
 
@@ -102,6 +103,7 @@ body {
       .section-two {
         min-width: $phonePWidth;
         min-height: 100vh;
+        height: fit-content;
         img {
           width: 90vw;
         }
