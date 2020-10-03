@@ -83,7 +83,7 @@ nav ul li a {
     display: none;
   }
 }
-@media only screen and (max-width: 850px) and (min-width: 400px) {
+@media only screen and (max-width: 850px) and (min-width: 500px) {
   header {
     display: none;
   }
@@ -167,7 +167,7 @@ p {
     height: 80vh;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   body {
     display: flex;
     flex-direction: column;

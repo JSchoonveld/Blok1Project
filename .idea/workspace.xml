@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30974f23-e450-4591-8530-d222ee8d0e83" name="Default Changelist" comment="mobile versie 1" />
+    <list default="true" id="30974f23-e450-4591-8530-d222ee8d0e83" name="Default Changelist" comment="mobile versie 1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601497859223</updated>
       <workItem from="1601497860244" duration="20291000" />
-      <workItem from="1601626265926" duration="16800000" />
+      <workItem from="1601626265926" duration="17180000" />
     </task>
     <task id="LOCAL-00001" summary="mobile versie 1">
       <created>1601661227957</created>
@@ -71,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601717740581</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mobile versie 1">
+      <created>1601719029078</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601719029078</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,10 +132,10 @@
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.-351.2560.1400@0.0.1920.1040" timestamp="1601497937897" />
     <state x="3158" y="-44" key="SettingsEditor/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1601540709218" />
-    <state x="2810" y="43" key="Vcs.Push.Dialog.v2" timestamp="1601717748336">
+    <state x="2810" y="43" key="Vcs.Push.Dialog.v2" timestamp="1601719038231">
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>
-    <state x="2810" y="43" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1601717748336" />
+    <state x="2810" y="43" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1601719038231" />
     <state x="3040" y="62" width="672" height="678" key="search.everywhere.popup" timestamp="1601555659755">
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>
