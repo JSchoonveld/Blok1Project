@@ -1,0 +1,7 @@
+{
+  "name": "Sass",
+  "version": "1.0.0",
+  "dependencies": {
+    "places.js": "^1.19.0"
+  }
+}
