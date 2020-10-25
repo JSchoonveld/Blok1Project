@@ -3,234 +3,429 @@
 @import "function";
 
 $sectionPadding: 20px;
-$h1Color: #6325A1;
+$titleColor: darkgrey;
 $pTextColor: grey;
 $phonePWidth: 90vw;
 
 body {
-  margin: 0;
   font-family: Arial, serif;
+  margin: 0;
   @include section(100vh, white, 100%);
-  display: flex;
-  flex-direction: column;
-
-  main{
-    display: flex;
-    .section-one {
-      width: 45vw;
-      padding: $sectionPadding;
-      overflow-scrolling: auto;
-      min-height: 75vh;
-
-    }
-    .section-one {
-      min-height: 100vh;
-      height: fit-content;
-    }
-    .section-two {
-      height: fit-content;
-      width: 45vw;
-      padding: $sectionPadding;
-      @include center(column);
-      min-height: 75vh;
-    }
-    }
-  }
-
-  h1{
-    padding: 10px;
-    color: $h1Color;
+  h1 {
+    color: $titleColor;
   }
   h2 {
-    color: $h1Color;
+    color: $titleColor;
   }
-h3 {
-  color: $h1Color;
+  h3 {
+    color: $titleColor;
+  }
+  p{
+    color: black;
+  }
 }
-  p {
-    padding: 5px;
-    color: $pTextColor
+
+ul {
+  li {
+    padding: 10px;
   }
+}
+table {
+  border-collapse: collapse;
+  width: 40vw;
+  height: 25vh;
+  box-shadow: 0 5px 10px  rgba(0,0,0,0.2);
+  th {
+    height: 40px;
+    background-color: #3F7556;
+    color: white;
+    text-align: left;
+  }
+  td {
+    padding-left: 15px;
+  }
+}
+.mobile-pic {
+  display: none;
+}
+.desktop-pic {
+  width: 20vw;
+  margin: 40px 0;
+}
+.calculator {
+  background-color: lightgray;
+  margin-top: 100px;
+  @include center(column);
+  touch-action: manipulation;
 
-
-  .table-section{
-    th, td {
-      box-shadow: 1px 1px 1px;
-
+  .display {
+    width: 100%;
+    background-color: black;
+    height: 30%;
+    color: white;
+    font-size: 25px;
+    .g1 {
+      position: relative;
+      top: 80px;
+      left: 20px
+    }
+    .g2 {
+      position: relative;
+      top: 30px;
+      left: 20px
     }
   }
+  .buttons-section {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-areas: "plus minus keer divide"
+        "seven eight nine result"
+        "four five six result"
+        "one two three result"
+        "zero dot clear result";
+    button {
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .result {
+      grid-area: result;
+    }
+  }
+  .button {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
 
-@media only screen and (min-width: 1200px) {
-  body{
-    main {
+@media only screen and (min-width: 1367px){
+main{
+
+  .section-one{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    min-height: 100vh;
+
+    .section-one-a {
+      width: 50vw;
+      margin: 3vh 3.5vw;
+
+    }
+    .section-one-b {
+      width: 20vw;
+      margin: 3vh 3.5vw;
       .thinPic {
-        display: none;
+        margin: 80px 0px;
       }
+    }
+    .thinPic {
+      width: 20vw;
+      margin: 20px 0;
+    }
+  }
+  .calculator {
+    width: 20vw;
+    height: 50vh;
+    background-color: lightgray;
+    margin-left: 100px;
+    @include center(column);
+
+  }
+    .buttons-section {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: 25% 25% 25% 25%;
+      grid-template-rows: 20% 20% 20% 20% 20%;
+      grid-template-areas: "plus minus keer divide"
+        "seven eight nine result"
+        "four five six result"
+        "one two three result"
+        "zero dot clear result"
+    }
+    .button {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+
+
+}
+
+@media only screen and (max-width: 1366px) {
+  .section-one {
+    @include center(column);
+
+    .section-one-a {
+      width: 60vw;
       @include center(column);
+      h3 {
+        align-self: start;
+        margin: 10px 0;
+
+      }
       p {
-        padding: 15px;
-        margin: 0;
-        width: 50vw;
+        margin: 10px 0;
       }
-      .section-one {
-        height: fit-content;
-        display: flex;
-        width: 90vw;
-        img {
-          width: 30vw;
-          margin: 20px;
+    }
+    .section-one-b {
+      width: 90vw;
+    }
+    .widePic {
+      display: none;
+    }
+    .medPic {
+      display: none;
+    }
+    .thinPic {
+      width: 60vw;
+      margin: 40px 0;
+    }
+  }
+  .section-calculator {
+    width: 100vw;
+    min-height: 100vh;
+    @include center(column);
+    .calculator {
+      width: 40vw;
+      height: 70vh;
+      background-color: lightgray;
+      margin: 20px 20px;
+    }
+    .display {
 
-        }
+      .g1 {
+        position: relative;
+        top: 40px;
+        left: 20px
       }
-      .section-one-a {
-        width: 50vw;
-        @include center(column);
-      }
-      .section-one-b {
-        width: 50vw;
-        @include center(column);
-        img {
-          width: 30vw;
-          margin: 20px;
-        }
-      }
-      .section-two {
-        height: fit-content;
-        display: flex;
-        flex-direction: row;
-        width: 90vw;
-
-        img {
-          width: 30vw;
-          margin: 20px;
-        }
-
-      }
-      .section-two-a {
-        width: 50vw;
-        height: 100%;
-        @include center(column);
-      }
-      .section-two-b {
-        width: 50vw;
-        height: 100%;
-        @include center(column);
-        img {
-          width: 30vw;
-          margin: 20px;
-        }
+      .g2 {
+        position: relative;
+        top: 20px;
+        left: 20px
       }
     }
   }
 }
+@media only screen and (max-width: 1024px) and (min-height: 1000px) {
+  .section-one {
+    @include center(column);
 
-
-@media only screen and (min-width: 820px) and (max-width: 1200px) {
-  body{
-    main {
-      .widePic {
-        display: none;
-      }
+    .section-one-a {
+      width: 80vw;
       @include center(column);
-      .section-one {
-        height: fit-content;
-        width: 80vw;
-        .section-one-a {
-          @include center(column);
-        }
-        img {
-          height: 40vh;
-        }
+      h3 {
+        align-self: start;
+        margin: 10px 0;
 
       }
+      p {
+        margin: 10px 0;
+      }
+    }
+    .section-one-b {
+      width: 90vw;
+    }
+    .widePic {
+      display: none;
+    }
+    .medPic {
+      display: none;
+    }
+    .thinPic {
+      width: 80vw;
+      margin: 40px 0;
+    }
+  }
+  .section-calculator {
+    width: 100vw;
+    min-height: 100vh;
+    @include center(column);
+    .calculator {
+      width: 60vw;
+      height: 60vh;
+      background-color: lightgray;
+    }
+    .display {
 
-      .section-two {
-        height: fit-content;
-        width: 80vw;
-        .section-two-a {
-          @include center(column);
-        }
-        img {
-          height: 40vh;
-        }
-
+      .g1 {
+        position: relative;
+        top: 40px;
+        left: 20px
+      }
+      .g2 {
+        position: relative;
+        top: 20px;
+        left: 20px
       }
     }
   }
 }
+@media only screen and (max-width: 1024px) and (max-height: 999px){
+  .section-one {
+    @include center(column);
 
-@media only screen and (min-width: 600px) and (max-width: 820px) {
-  body{
-    overflow-scrolling: auto;
-    main {
-      .widePic {
-        display: none;
-      }
+    .section-one-a {
+      width: 60vw;
       @include center(column);
-      .section-one {
-        height: fit-content;
-        width: 80vw;
-        .section-one-a {
-          @include center(column);
-        }
-        img {
-          width: 65vw;
-        }
+      h3 {
+        align-self: start;
+        margin: 10px 0;
 
       }
+      p {
+        margin: 10px 0;
+      }
+    }
+    .section-one-b {
+      width: 90vw;
+    }
+    .widePic {
+      display: none;
+    }
+    .medPic {
+      display: none;
+    }
+    .thinPic {
+      width: 60vw;
+      margin: 40px 0;
+    }
+  }
+  .section-calculator {
+    width: 100vw;
+    min-height: 100vh;
+    @include center(column);
+    .calculator {
+      width: 50vw;
+      height: 140vh;
+      background-color: lightgray;
+      margin: 20px 20px;
+    }
+    .display {
 
-      .section-two {
-        height: fit-content;
-        width: 65vw;
-        .section-two-a {
-          @include center(column);
-        }
-        img {
-          width: 80vw;
-        }
+      .g1 {
+        position: relative;
+        top: 40px;
+        left: 20px
+      }
+      .g2 {
+        position: relative;
+        top: 20px;
+        left: 20px
+      }
+    }
+  }
+}
+@media only screen and (max-width: 800px) {
+  .section-one {
+    @include center(column);
 
+    .section-one-a {
+      width: 90vw;
+      @include center(column);
+      h3 {
+        align-self: center;
+        margin: 10px 0;
+
+      }
+      h2 {
+        align-self: center;
+        margin: 10px 0;
+
+      }
+      p {
+        margin: 10px 0;
+      }
+      .mobile-pic {
+        display: block;
+        width: 60vw;
+        margin: 20px;
+      }
+    }
+    .section-one-b {
+      width: 90vw;
+    }
+    .desktop-pic {
+      display: none;
+    }
+  }
+  .section-calculator {
+    width: 100vw;
+    min-height: 100vh;
+    @include center(column);
+    .calculator {
+      width: 60vw;
+      height: 50vh;
+      background-color: lightgray;
+    }
+    .display {
+
+      .g1 {
+        position: relative;
+        top: 40px;
+        left: 20px
+      }
+      .g2 {
+        position: relative;
+        top: 20px;
+        left: 20px
       }
     }
   }
 }
 
 @media only screen and (max-width: 500px) {
-  body {
-    display: flex;
-    flex-direction: column;
-
-    main{
+  .section-one {
+    @include center(column);
+    .section-one-a {
+      width: 90vw;
       @include center(column);
-
-
-      .widePic {
-        display: none;
+      .mobile-pic {
+        display: block;
+        width: 80vw;
+        padding: 20px;
       }
-      .section-one {
-        min-width: $phonePWidth;
-        height: fit-content;
-        @include center(column);
-        img {
-          width: 90vw;
+      h3 {
+        align-self: center;
+        margin: 10px 0;
 
-        }
-        .mark {
-          width: 90vw;
-        }
-        p {
-          padding-top: 10px;
-        }
       }
-      .section-two {
-        min-width: $phonePWidth;
-        height: fit-content;
-        @include center(column);
-        img {
-          width: 90vw;
-        }
-        h1 {
+      p {
+        margin: 10px 0;
+      }
+    }
+    .section-one-b {
+      width: 90vw;
+    }
 
-        }
+    .desktop-pic {
+      display: none;
+    }
+  }
+  .section-calculator {
+    width: 100vw;
+    min-height: 100vh;
+    @include center(column);
+    .calculator {
+      width: 90vw;
+      height: 70vh;
+      background-color: lightgray;
+      margin: 20px 20px;
+    }
+    .display {
+
+      .g1 {
+        position: relative;
+        top: 40px;
+        left: 20px
+      }
+      .g2 {
+        position: relative;
+        top: 20px;
+        left: 20px
       }
     }
   }

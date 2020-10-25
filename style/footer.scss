@@ -1,8 +1,9 @@
 @import "function";
 
 footer {
-  @include section(35vh, $menuColor, 100%);
-  width: 100vw;
+  @include section(15vh, #3F7556 , 100%);
+  border-top: 1px solid rgba(0,0,0,0.06);
+  @include center(column);
 
   ul {
     display: flex;
@@ -16,12 +17,9 @@ footer {
 
   }
   .footLogos{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-right: 50px;
+  padding: 0;
     vertical-align: center;
-    margin-top: 3%;
+
   }
 
   .footPic {
@@ -29,19 +27,68 @@ footer {
     width: 50px;
   }
 }
-@media only screen and (max-width: 400px){
+
+@media only screen and (min-width: 1367px){
+  footer {
+    .footLogos {
+      margin-top: 70px;
+    }
+  }
+}
+@media only screen and (max-width: 1366px) and (min-height: 1000px) {
+  footer {
+    .footLogos {
+      margin-top: 50px;
+    }
+  }
+}
+@media only screen and (max-width: 1024px) and (min-height: 1000px) {
+  footer {
+    .footLogos {
+      margin-top: 65px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) and (max-height: 999px){
+  footer {
+    .footLogos {
+      margin-top: 30px;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px){
+  footer {
+    .footLogos {
+      margin-top: 50px;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) and (max-height: 815px){
+  footer {
+    .footLogos {
+      margin-top: 30px;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 500px) and (max-height: 650px){
     footer {
       ul {
-        display: flex;
+        @include center(row);
         margin: 0;
-        padding-bottom: 20px;
-        padding-top: 20px;
 
         li {
           padding: 0 10px;
           list-style: none;
         }
 
+      }
+      .footLogos {
+        margin-top: 20px;
       }
     }
 }

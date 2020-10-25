@@ -1,26 +1,29 @@
 @import "function";
 
-$headerColor: #9FFF59;
+$headerColor: white;
 $headerHeight: 10vh;
 
 header {
-  @include section(fit-content, $menuColor, 100%);
+  @include section(fit-content, #2FC26C , 100%);
   @include center(row );
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  margin: 0;
   .logo{
+    margin-left: 80px;
+    padding: 20px;
     a{
       color: white;
       text-decoration: none;
+      &:hover {
+        color: #85F7B4;
+      }
     }
-    padding: 20px;
   }
 }
 nav {
   ul{
-    display: flex;
-    justify-content: center;
+    @include center(row);
     margin-top: 0;
-    padding-left: 200px;
-    line-height: 10vh;
     li{
       list-style: none;
       padding-left: 20px;
@@ -28,15 +31,22 @@ nav {
       a{
         text-decoration: none;
         color: white;
+        &:hover {
+          color: #85F7B4;
+        }
       }
     }
   }
   margin: auto;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px){
   header {
-    width: 101vw;
+    width: 100vw;
+
+    .logo {
+      margin-left: 20px;
+    }
 
     .hamburger {
       height: 60px;
@@ -45,7 +55,7 @@ nav {
       background-color: transparent;
       border-style: none;
       font-size: 40px;
-      color: red;
+      color: grey;
       right: 40px;
       top: 20px;
       z-index: 1;
@@ -57,18 +67,73 @@ nav {
       position: fixed;
       top: -40px;
       right: 0;
-      height: 100vh;
+      height: 120vh;
       width: 500px;
-      background-color: rebeccapurple;
+      background-color: white;
       transform: translateX(100%);
       ul {
         position: absolute;
-        top: 50px;
-        right: 20px;
+        top: 100px;
+        right: -20px;
         margin-right: 200px;
         li {
           a {
-            color: white;
+            color: black;
+            font-size: 25px;
+          }
+        }
+      }
+    }
+    .active1 {
+      transform: translate(0);
+    }
+  }
+
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+
+  }
+}
+@media only screen and (max-width: 500px) {
+  header {
+    width: 100vw;
+
+    .logo {
+      margin-left: 20px;
+    }
+
+    .hamburger {
+      height: 60px;
+      width: 60px;
+      position: fixed;
+      background-color: transparent;
+      border-style: none;
+      font-size: 40px;
+      color: grey;
+      right: 40px;
+      top: 10px;
+      z-index: 1;
+      outline: none;
+
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      right: 0;
+      height: 120vh;
+      width: 500px;
+      background-color: white;
+      transform: translateX(100%);
+      ul {
+        position: absolute;
+        top: 100px;
+        right: -80px;
+        margin-right: 200px;
+        li {
+          a {
+            color: black;
             font-size: 25px;
           }
         }
@@ -89,13 +154,5 @@ nav {
   .hamburger {
     display: none;
   }
-  header {
-    width: 103vw;
-    overflow: no-display;
-
-  }
 }
 
-@media only screen and (max-width: 400px) {
-
-}

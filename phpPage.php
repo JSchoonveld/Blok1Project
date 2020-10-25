@@ -1,4 +1,8 @@
-<?php ?>
+<?php
+ include 'PHP/database.php';
+
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -28,9 +32,29 @@
     <div class="section-one">
         <div class="section-one-a">
 
+            <form action="/learning/Sass/phpPage.php" method="get">
+                <input type="radio" id="Groningen" name="location" value="groningen">
+                <label for="male">Groningen</label><br>
+                <input type="radio" id="Assen" name="location" value="Assen">
+                <label for="female">Assen</label><br>
+                <input type="radio" id="Leeuwarden" name="location" value="Leeuwarden">
+                <label for="other">Leeuwarden</label><br>
+                <input type="radio" id="Zwolle" name="location" value="Zwolle">
+                <label for="other">Zwolle</label><br><br>
+                <input type="submit" class="submitDB">
+            </form>
+            <br>
+            <form id="submitIntoDb" action="/learning/Sass/phpPage.php" method="get">
+                <label for="firstName">First name<br></label><input type="text" id="firstName" name="firstname"><br>
+                <label for="lastName"></label>Last name<br><input type="text" id="lastName" name="lastname"><br>
+                <label for="location"></label>Location<br><input type="text" id="location" name="location"><br><br>
+                <input type="submit">
+            </form>
         </div>
         <div class="section-one-b">
+            <?php showLocation($dsn, $user, $password);
 
+            ?>
         </div>
     </div>
     <div class="section-two">
