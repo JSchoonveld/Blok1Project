@@ -112,7 +112,7 @@
       <workItem from="1603352233430" duration="2920000" />
       <workItem from="1603623657289" duration="9109000" />
       <workItem from="1603646316081" duration="187000" />
-      <workItem from="1603647011663" duration="2125000" />
+      <workItem from="1603647011663" duration="2472000" />
     </task>
     <task id="LOCAL-00001" summary="mobile versie 1">
       <created>1601661227957</created>
@@ -177,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603647947939</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Content done, alleen PHP nog">
+      <created>1603649215352</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603649215352</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,10 +344,10 @@
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.-351.2560.1400@0.0.1920.1040" timestamp="1601497937897" />
     <state x="3158" y="-44" key="SettingsEditor/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1602411771721" />
-    <state x="2810" y="43" key="Vcs.Push.Dialog.v2" timestamp="1603649191198">
+    <state x="2810" y="43" key="Vcs.Push.Dialog.v2" timestamp="1603649378518">
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>
-    <state x="2810" y="43" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1603649191198" />
+    <state x="2810" y="43" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1603649378518" />
     <state x="2012" y="-259" width="2376" height="1216" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1603475783044">
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>
@@ -354,10 +361,10 @@
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>
     <state x="3017" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1603475962451" />
-    <state x="3086" y="277" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603649187436">
+    <state x="3086" y="277" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603649273215">
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>
-    <state x="3086" y="277" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1603649187436" />
+    <state x="3086" y="277" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1603649273215" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1601966163080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
