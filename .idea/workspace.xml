@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30974f23-e450-4591-8530-d222ee8d0e83" name="Default Changelist" comment="Content done, alleen PHP nog">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +112,7 @@
       <workItem from="1603352233430" duration="2920000" />
       <workItem from="1603623657289" duration="9109000" />
       <workItem from="1603646316081" duration="187000" />
-      <workItem from="1603647011663" duration="921000" />
+      <workItem from="1603647011663" duration="2125000" />
     </task>
     <task id="LOCAL-00001" summary="mobile versie 1">
       <created>1601661227957</created>
@@ -171,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603647640017</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Content done, alleen PHP nog">
+      <created>1603647947939</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603647947939</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,15 +328,19 @@
     </state>
     <state width="930" height="332" key="GridCell.Tab.3.right/0.0.1920.1040/1920.-351.2560.1400@0.0.1920.1040" timestamp="1602420473789" />
     <state width="930" height="332" key="GridCell.Tab.3.right/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1602319315952" />
+    <state x="3125" y="0" key="RollbackChangesDialog" timestamp="1603647939820">
+      <screen x="1920" y="-351" width="2560" height="1400" />
+    </state>
+    <state x="3125" y="0" key="RollbackChangesDialog/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1603647939820" />
     <state x="3158" y="-44" key="SettingsEditor" timestamp="1602411771721">
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.-351.2560.1400@0.0.1920.1040" timestamp="1601497937897" />
     <state x="3158" y="-44" key="SettingsEditor/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1602411771721" />
-    <state x="2810" y="43" key="Vcs.Push.Dialog.v2" timestamp="1603647646900">
+    <state x="2810" y="43" key="Vcs.Push.Dialog.v2" timestamp="1603649191198">
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>
-    <state x="2810" y="43" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1603647646900" />
+    <state x="2810" y="43" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1603649191198" />
     <state x="2012" y="-259" width="2376" height="1216" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1603475783044">
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>
@@ -344,10 +354,10 @@
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>
     <state x="3017" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1603475962451" />
-    <state x="3086" y="277" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603647530684">
+    <state x="3086" y="277" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603649187436">
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>
-    <state x="3086" y="277" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1603647530684" />
+    <state x="3086" y="277" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1603649187436" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1601966163080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
