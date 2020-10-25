@@ -19,27 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30974f23-e450-4591-8530-d222ee8d0e83" name="Default Changelist" comment="mobile versie 1">
-      <change afterPath="$PROJECT_DIR$/PHP/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Sass.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjectBlok1Jaar1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/calculator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/avo.html" beforeDir="false" afterPath="$PROJECT_DIR$/avo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jesse1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsVoorbeeld.html" beforeDir="false" afterPath="$PROJECT_DIR$/jsVoorbeeld.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpPage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooster.html" beforeDir="false" afterPath="$PROJECT_DIR$/rooster.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school.html" beforeDir="false" afterPath="$PROJECT_DIR$/school.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/verschillen.html" beforeDir="false" afterPath="$PROJECT_DIR$/verschillen.html" afterDir="false" />
-    </list>
+    <list default="true" id="30974f23-e450-4591-8530-d222ee8d0e83" name="Default Changelist" comment="Content done, alleen PHP nog" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,6 +110,7 @@
       <workItem from="1603352233430" duration="2920000" />
       <workItem from="1603623657289" duration="9109000" />
       <workItem from="1603646316081" duration="187000" />
+      <workItem from="1603647011663" duration="525000" />
     </task>
     <task id="LOCAL-00001" summary="mobile versie 1">
       <created>1601661227957</created>
@@ -166,7 +147,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601732006053</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Content done, alleen PHP nog">
+      <created>1603647048356</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603647048356</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Content done, alleen PHP nog">
+      <created>1603647197246</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603647197246</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +181,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mobile versie 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobile versie 1" />
+    <MESSAGE value="Content done, alleen PHP nog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content done, alleen PHP nog" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3777" y="168" key="#File_Watchers" timestamp="1601499427427">
@@ -219,11 +215,11 @@
     </state>
     <state x="627" y="298" key="EditFileWatcherDialog/0.0.1920.1040/1920.-351.2560.1400@0.0.1920.1040" timestamp="1601497935794" />
     <state x="2756" y="50" width="665" height="688" key="EditFileWatcherDialog/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1601499335161" />
-    <state x="2868" y="149" key="FileChooserDialogImpl" timestamp="1603646501535">
+    <state x="2868" y="149" key="FileChooserDialogImpl" timestamp="1603647158300">
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>
     <state x="711" y="371" key="FileChooserDialogImpl/0.0.1920.1040/1920.-351.2560.1400@0.0.1920.1040" timestamp="1602420470281" />
-    <state x="2868" y="149" key="FileChooserDialogImpl/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1603646501535" />
+    <state x="2868" y="149" key="FileChooserDialogImpl/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1603647158300" />
     <state x="3444" y="417" key="Github.ShareDialog" timestamp="1601632664242">
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>
@@ -317,10 +313,10 @@
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.-351.2560.1400@0.0.1920.1040" timestamp="1601497937897" />
     <state x="3158" y="-44" key="SettingsEditor/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1602411771721" />
-    <state x="2810" y="43" key="Vcs.Push.Dialog.v2" timestamp="1601732010700">
+    <state x="2810" y="43" key="Vcs.Push.Dialog.v2" timestamp="1603647534326">
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>
-    <state x="2810" y="43" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1601732010700" />
+    <state x="2810" y="43" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1603647534326" />
     <state x="2012" y="-259" width="2376" height="1216" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1603475783044">
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>
@@ -334,6 +330,10 @@
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>
     <state x="3017" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1603475962451" />
+    <state x="3086" y="277" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603647530684">
+      <screen x="1920" y="-351" width="2560" height="1400" />
+    </state>
+    <state x="3086" y="277" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1603647530684" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1601966163080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
