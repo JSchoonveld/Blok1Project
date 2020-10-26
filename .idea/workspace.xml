@@ -20,6 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30974f23-e450-4591-8530-d222ee8d0e83" name="Default Changelist" comment="Content done, alleen PHP nog">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blok1" beforeDir="false" afterPath="$PROJECT_DIR$/blok1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blok1/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/blok1/style/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,6 +116,7 @@
       <workItem from="1603623657289" duration="9109000" />
       <workItem from="1603646316081" duration="187000" />
       <workItem from="1603647011663" duration="2472000" />
+      <workItem from="1603703885675" duration="320000" />
     </task>
     <task id="LOCAL-00001" summary="mobile versie 1">
       <created>1601661227957</created>
@@ -335,15 +339,19 @@
     </state>
     <state width="930" height="332" key="GridCell.Tab.3.right/0.0.1920.1040/1920.-351.2560.1400@0.0.1920.1040" timestamp="1602420473789" />
     <state width="930" height="332" key="GridCell.Tab.3.right/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1602319315952" />
-    <state x="3125" y="0" key="RollbackChangesDialog" timestamp="1603647939820">
+    <state x="3125" y="0" key="RollbackChangesDialog" timestamp="1603704136197">
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>
-    <state x="3125" y="0" key="RollbackChangesDialog/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1603647939820" />
+    <state x="3125" y="0" key="RollbackChangesDialog/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1603704136197" />
     <state x="3158" y="-44" key="SettingsEditor" timestamp="1602411771721">
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.-351.2560.1400@0.0.1920.1040" timestamp="1601497937897" />
     <state x="3158" y="-44" key="SettingsEditor/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1602411771721" />
+    <state x="2763" y="297" key="VCS.EditChangelistDialog" timestamp="1603703951868">
+      <screen x="1920" y="-351" width="2560" height="1400" />
+    </state>
+    <state x="2763" y="297" key="VCS.EditChangelistDialog/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1603703951868" />
     <state x="2810" y="43" key="Vcs.Push.Dialog.v2" timestamp="1603649378518">
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>
@@ -357,10 +365,10 @@
     </state>
     <state x="73" y="119" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.-351.2560.1400@0.0.1920.1040" timestamp="1602413895361" />
     <state x="2017" y="-191" width="2294" height="1131" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1603629424214" />
-    <state x="3017" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603475962451">
+    <state x="3017" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603704119063">
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>
-    <state x="3017" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1603475962451" />
+    <state x="3017" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.-351.2560.1400@1920.-351.2560.1400" timestamp="1603704119063" />
     <state x="3086" y="277" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603649273215">
       <screen x="1920" y="-351" width="2560" height="1400" />
     </state>
